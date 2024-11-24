@@ -38,6 +38,7 @@
 <body>
     <header class="topo">
         <a href=""><img class="logo" src="img/logo.png" alt="Logo do Site"></a>
+        <h1 class="titulo_site">Site de Noticias</h1>
     </header>
     <nav>
         <ul class="menu">
@@ -90,19 +91,100 @@
         </section>
 
         <section class="galeria">
-            <div>
 
+            <div class="galeria_item--1">
+                <a href="">
+
+                    <img src="img/asteroid-1.jpg" class="galeria" alt="imagem de asteroide">
+                    <p class="galeria.texto">
+                        Mineração de asteroides: Ficção ou realidade?
+                    </p>
+                </a>
             </div>
-            <div>
+            <div class="galeria_item--2">
+                <a href="">
 
+                    <img src="img/asteroid-2.webp" class="galeria" alt="imagem de asteroide">
+                    <p class="galeria.texto">
+                        Estudo da NASA revela verdades sobre cometas.
+                    </p>
+                </a>
             </div>
-            <div>
+            <div class="galeria_item--3">
+                <a href="">
 
+                    <img src="img/asteroid-3.webp" class="galeria" alt="imagem de asteroide">
+                    <p class="galeria.texto">
+                        Rochas espaciais, tudo o que não te contam.
+                    </p>
+                </a>
+            </div>
+            <div class="galeria_item--4">
+                <a href="">
+
+                    <img src="img/asteroid-4.jpg" class="galeria" alt="imagem de asteroide">
+                    <p class="galeria.texto">
+                        Voce sabe qual a composição de um asteroide?
+                    </p>
+                </a>
+            </div>
+            <div class="galeria_item--5">
+                <a href="">
+
+                    <img src="img/asteroid-5.jpg" class="galeria" alt="imagem de asteroide">
+                    <p class="galeria.texto">
+                        Novo asteroide descoberto em rota de colisão com a terra.
+                    </p>
+                </a>
+            </div>
+            <div class="galeria_item--6">
+                <a href="">
+
+                    <img src="img/asteroid-6.webp" class="galeria" alt="imagem de asteroide">
+                    <p class="galeria.texto">
+                        Conheça os cometas e asteroides mais famosos da historia.
+                    </p>
+                </a>
             </div>
 
         </section>
 
         <section class="formulario">
+            <h3>Sugestões e Criticas</h3>
+            <form action="">
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text" nome="nome" placeholder="Nome Completo">
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" nome="email" placeholder="Email">
+                </div>
+                <div>
+                    <label for="nascimento">Data de Nascimento: </label>
+                    <input type="date" name="nascimento">
+                </div>
+                <div>
+                    <label for="genero"> Genero: </label>
+                    <select name="genero">
+                        <option value="masculino">Masculino</option>
+                        <option value="feminino">Feminino</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="satisfacao">Nivel de satisfacao: </label>
+                    <input type="range" name="satisfacao" step="1" min="0" max="5">
+                </div>
+                <div>
+                    <label for="sugestoes">Sugestoes / Criticas:</label><br>
+                    <textarea name="sugestoes" cols="30" rows="2" placeholder="Insira seu feedback"></textarea>
+                </div>
+                
+                <input type="button" name="submit" value="Enviar">
+
+            </form>
+
 
         </section>
 
