@@ -49,17 +49,19 @@
                 <a href="#" class="navbar-brand">
                     <img id="logo" src="img/logo.png" alt="Logo do site"> AstroNews
                 </a>
-                <button class="navbar-toggler ms-auto " type="button" data-bs-toggle="collapse" data-bs-target="#navbar-links"
-                    aria-controls="navbar-links" aria-expanded="true" aria-label="Toggle navigation">
+                <button class="navbar-toggler ms-auto " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbar-links" aria-controls="navbar-links" aria-expanded="true"
+                    aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon">Menu</span>
                 </button>
                 <div class="collapse navbar-collapse collapse justify-content-end" id="navbar-links">
                     <div class="navbar-nav">
 
-                        <a class="nav-item nav-link" href="#coluna_noticia" id="home-menu">Noticia</a>
-                        <a class="nav-item nav-link" href="#galeria" id="new-menu">Mais Noticias</a>
-                        <a class="nav-item nav-link" href="#formulario" id="trending-menu">Feedback</a>
-                        <a class="nav-item nav-link" href="#rodape" id="contact-menu">Informações Uteis</a>
+                        <a class="nav-item nav-link" href="#noticia" id="main_content">Noticia</a>
+                        <a class="nav-item nav-link" href="#galeria" id="other_news">Mais Noticias</a>
+                        <a class="nav-item nav-link" href="#formulario" id="feedback_menu">Feedback</a>
+                        <a class="nav-item nav-link" href="#tabela_bootstrap" id="the_team">Nosso time</a>
+                        <a class="nav-item nav-link" href="#rodape" id="footer_menu">Rodape</a>
                     </div>
                 </div>
             </nav>
@@ -68,7 +70,7 @@
 
     <main>
         <!-- coluna principal -->
-        <section class="coluna_noticia" id="coluna_noticia">
+        <section class="coluna_noticia" id="noticia">
             <h2 class="titulo_noticia">Hera: missão europeia para investigar asteroide desviado pela Nasa decola</h2>
             <img src="./img/asteroide.jfif" class="imagem-noticia mx-auto d-block"
                 alt="imagem de uma sonda espacial indo em direção a um asteroide">
@@ -149,7 +151,8 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="titulo-galeria-modal-01">Mineração de asteroides: Ficção ou realidade?</h5>
+                            <h5 class="modal-title" id="titulo-galeria-modal-01">Mineração de asteroides: Ficção ou
+                                realidade?</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
@@ -169,7 +172,8 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="titulo-galeria-modal-02">Estudo da NASA revela verdades sobre cometas.</h5>
+                            <h5 class="modal-title" id="titulo-galeria-modal-02">Estudo da NASA revela verdades sobre
+                                cometas.</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
@@ -189,7 +193,8 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="titulo-galeria-modal-03">Rochas espaciais, tudo o que não te contam.</h5>
+                            <h5 class="modal-title" id="titulo-galeria-modal-03">Rochas espaciais, tudo o que não te
+                                contam.</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
@@ -208,7 +213,8 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="titulo-galeria-modal-04">Voce sabe qual a composição de um asteroide?</h5>
+                            <h5 class="modal-title" id="titulo-galeria-modal-04">Voce sabe qual a composição de um
+                                asteroide?</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
@@ -227,7 +233,8 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="titulo-galeria-modal-05">Novo asteroide descoberto em rota de colisão com a terra.</h5>
+                            <h5 class="modal-title" id="titulo-galeria-modal-05">Novo asteroide descoberto em rota de
+                                colisão com a terra.</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
@@ -246,7 +253,8 @@
                 <div class="modal-dialog">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="titulo-galeria-modal-06">Conheça os cometas e asteroides mais famosos da historia.</h5>
+                            <h5 class="modal-title" id="titulo-galeria-modal-06">Conheça os cometas e asteroides mais
+                                famosos da historia.</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
@@ -315,11 +323,47 @@
                     <img src="img/vb.jfif" alt="imagem">
                 </div>
             </div>
+            <hr>
         </section>
 
 
+        <!-- bootstrap table -->
+        <section id="tabela_bootstrap">
+            <h3>Nosso time</h3>
+            <table class="table table-dark table-striped table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Nome</th>
+                        <th scope="col">Cargo</th>
+                        <th scope="col">Contato</th>
+                    </tr>
+                </thead>
+                <tbody class="table-group-divider table-divider-color">
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Nome Sobrenome</td>
+                        <td>Cargo Ocupado</td>
+                        <td>@Rede social</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Nome Sobrenome</td>
+                        <td>Cargo Ocupado</td>
+                        <td>@Rede social</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Nome Sobrenome</td>
+                        <td>Cargo Ocupado</td>
+                        <td>@Rede social</td>
+                    </tr>
+                </tbody>
+            </table>
 
+        </section>
     </main>
+    
     <!-- rodape -->
     <footer class="rodape" id="rodape">
         <div id="contact-area">
@@ -355,10 +399,6 @@
             <div class="d-flex justify-content-center copyright"> © 2024 - 2024 AstroNews TM. Todos os direitos
                 reservados.</div>
         </div>
-
-
-
     </footer>
 </body>
-
 </html>
