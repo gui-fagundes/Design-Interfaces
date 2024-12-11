@@ -35,7 +35,8 @@ header,
 .navbar {
     background-image: url(../img/banner-topo.jpg);
     background-size: cover;
-    background-color: #131862;
+    /* background-color: #131862; */
+    border-bottom: solid 2px black;
 }
 
 #nav-container {
@@ -60,11 +61,23 @@ header,
 #navbar-links a {
     color: black;
     font-weight: bolder;
+    text-decoration: underline #1d1d1c;
+    text-decoration-thickness: 2px;
+
 }
 
 .navbar-expand-lg .navbar-nav .nav-ling {
     padding: 1rem .8rem;
 }
+
+.navbar-toggler-icon {
+    margin-right: 20px;
+    text-align: center;
+    color: white;
+    text-decoration: underline #1d1d1c;
+    text-decoration-thickness: 2px;
+}
+
 
 /* noticia principal */
 
@@ -94,6 +107,7 @@ img {
 }
 
 .galeria-item {
+    padding-top: 20px;
     background-color: white;
     box-shadow: 0 0 5px;
     cursor: pointer;
@@ -102,6 +116,10 @@ img {
 
 /* formulario */
 
+#formulario{
+    background-color: white;
+    margin-bottom: 20px;
+}
 .formulario {
     justify-content: center;
     justify-items: center;
@@ -128,6 +146,12 @@ img {
 .rodape_lista {
     list-style: none;
 
+}
+
+.rodape_lista a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
 }
 
 .copyright {
